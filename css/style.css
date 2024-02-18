@@ -105,8 +105,9 @@ header h3 {
     color: var(--secend_coler);
 line-height: 50px;
 }
+/* start main */
 
-
-main {}
+main {
+}
 
 footer {}
