@@ -94,20 +94,49 @@ header {
     justify-content: center;
     align-items: center;
 }
-.head{
+
+.head {
     position: relative;
 }
+
 header h3 {
     margin-top: 10px;
     text-align: center;
     font-weight: 600;
     font-size: 45px;
     color: var(--secend_coler);
-line-height: 50px;
+    line-height: 50px;
 }
+
 /* start main */
-
-main {
+/* section one */
+.one {
+    border: 1px solid var(--extra-light);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-footer {}
+.booking__nav {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--extra-light);
+    border: 5px;
+}
+.booking__nav span{
+    flex:1 ;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: var(--main_color);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.booking__nav span:nth-child(2){
+    background-color: var(--primary-color);
+    color: var(--extra-light);
+border-radius: 1rem;
+}
+/* 20m */
+
+/* section tow */
