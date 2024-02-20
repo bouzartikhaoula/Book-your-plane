@@ -110,7 +110,7 @@ header h3 {
 
 /* start main */
 /* section one */
-.one {
+main .one {
     border: 1px solid var(--extra-light);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
@@ -124,19 +124,99 @@ header h3 {
     background-color: var(--extra-light);
     border: 5px;
 }
-.booking__nav span{
-    flex:1 ;
+
+.booking__nav span {
+    flex: 1;
     padding: 1rem 2rem;
     font-weight: 600;
     color: var(--main_color);
     border-radius: 15px;
     cursor: pointer;
 }
-.booking__nav span:nth-child(2){
+
+.booking__nav span:nth-child(2) {
     background-color: var(--primary-color);
     color: var(--extra-light);
-border-radius: 1rem;
-}
-/* 20m */
+    border-radius: 1rem;
 
+}
+
+form {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) auto;
+    gap: 1rem;
+}
+
+.one .input_content {
+    width: 100%;
+}
+
+.one .form_group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.one .form_group span {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: var(--main_color);
+    background-color: var(--extra-light);
+    border-radius: 1rem;
+
+
+}
+
+.one .input_group {
+    width: 100%;
+    position: relative;
+}
+
+.one label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--main_color);
+    pointer-events: none;
+    transition: 0.3s;
+
+}
+
+.one input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--main_color);
+}
+.one input:focus ~ label{
+    font-size: 0.8rem;
+top: 0;
+
+}
+.one .form_group p{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--main_color);
+  
+    
+}
+ button{
+    padding: 10px;
+    color: var(--extra-light);
+    border: none;
+    font-size: 1.5rem;
+    height: 45px;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+
+}
 /* section tow */
