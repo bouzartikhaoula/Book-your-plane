@@ -197,19 +197,22 @@ form {
     border-bottom: 1px solid var(--primary-color);
     color: var(--main_color);
 }
-.one input:focus ~ label{
+
+.one input:focus~label {
     font-size: 0.8rem;
-top: 0;
+    top: 0;
 
 }
-.one .form_group p{
+
+.one .form_group p {
     margin-top: 0.5rem;
     font-size: 0.8rem;
     color: var(--main_color);
-  
-    
+
+
 }
- button{
+
+button {
     padding: 10px;
     color: var(--extra-light);
     border: none;
@@ -219,33 +222,40 @@ top: 0;
     background-color: var(--primary-color);
 
 }
+
 /* section tow */
-.tow{
+.tow {
     display: grid;
     align-items: center;
 
 }
-.tow .text{
+
+.tow .text {
     text-align: center;
 }
-.tow .text h3{
+
+.tow .text h3 {
     letter-spacing: 5px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-weight: 500;
 }
-.tow .text h1{
+
+.tow .text h1 {
     font-weight: 700;
     font-size: 50px;
 }
-.tow .text p{
+
+.tow .text p {
     color: var(--main_color);
 }
+
 /* section three */
 .three {
     margin: 0;
     display: flex;
 }
-.three .nmb{
+
+.three .nmb {
     font-weight: 600;
     font-size: 20px;
     background-color: var(--primary-color);
@@ -254,19 +264,23 @@ top: 0;
     border-radius: 19px;
     color: var(--extra-light);
 }
-.three  h3{
-font-weight: 600;
-font-size: 19px;
+
+.three h3 {
+    font-weight: 600;
+    font-size: 19px;
 }
-.three p{
+
+.three p {
     color: var(--main_color);
     width: 600px;
 
 }
-.three .content{
+
+.three .content {
     display: flex;
 }
-.three  .imege{
+
+.three .imege {
     margin-left: 20px;
     margin-top: 19px;
     /* display: flex; */
@@ -279,19 +293,55 @@ font-size: 19px;
 
 }
 
-.three  img {
-    
+.three img {
+
     box-shadow: 1px 1px 14px var(--main_color);
     width: 210px;
     height: 340px;
     border-radius: 110px;
 
 }
-.three .imege .sc{
+
+.three .sc {
     position: absolute;
-    top: -14px;
+    top: -5cap;
 }
-.three .imege .fr{
+
+.three .imege .fr {
     z-index: 1;
 
+}
+
+.four {
+    margin-left:-30px;
+    margin-right: -40px;
+
+    background-color: var(--extra-light);
+}
+
+.four .text2 {
+    
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.four .text2 h1 {
+    
+    width: 600px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.four .text2 .view {
+    margin: 20px;
+    margin: 16px;
+    font: 400;
+    font-size: 16px;
+    width: 160px;
+    border-radius: 40px;
+    background-color: var(--extra-light);
+    box-shadow: 1px 1px 30px 1px #b0b7c0;
+    border: 1px solid black;
+    color: var(--secend_coler);
 }
