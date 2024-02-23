@@ -313,21 +313,27 @@ button {
 }
 
 .four {
-    margin-left:-30px;
+    margin-left: -40px;
     margin-right: -40px;
 
     background-color: var(--extra-light);
 }
 
 .four .text2 {
-    
+
     display: flex;
-    
+
     justify-content: space-between;
 }
 
+.four .content {
+    padding: 20px;
+
+
+}
+
 .four .text2 h1 {
-    
+
     width: 600px;
     font-weight: 600;
     font-size: 40px;
@@ -342,6 +348,42 @@ button {
     border-radius: 40px;
     background-color: var(--extra-light);
     box-shadow: 1px 1px 30px 1px #b0b7c0;
-    border: 1px solid black;
+
     color: var(--secend_coler);
+}
+
+.four .cardContent {
+    width: fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    /* border: 1px solid black; */
+
+   
+}
+.four .card{
+    display: grid;
+    border-radius: 30px;
+    width: 450px;
+
+    border: 1px solid black;
+}
+.four .icon{
+    padding-top: 20px;
+text-align: center;
+}
+.parag{ text-align: center;}
+.titel{
+    text-align: center;
+}
+
+
+.four i {
+    padding: 20px;
+    
+    font-size: 40px;
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+    border-radius: 50%;
 }
