@@ -208,6 +208,7 @@ form {
     margin-top: 0.5rem;
     font-size: 0.8rem;
     color: var(--main_color);
+    padding-left: 18px;
 
 
 }
@@ -366,14 +367,15 @@ button {
     display: grid;
     border-radius: 30px;
     width: 450px;
-
-    border: 1px solid black;
+background-color: #ffffff;
+    border: 1px solid rgba(208, 104, 104, 0);
 }
 .four .icon{
     padding-top: 20px;
 text-align: center;
 }
-.parag{ text-align: center;}
+.parag{ text-align: center;
+font-size: 18px;}
 .titel{
     text-align: center;
 }
@@ -386,4 +388,10 @@ text-align: center;
     color: var(--extra-light);
     background-color: var(--primary-color);
     border-radius: 50%;
+}
+.four .card:nth-child(2) i{
+    background-color: rgb(220, 150, 59);
+}
+.four .card:nth-child(3) i{
+    background-color: rgba(220, 150, 59, 0.644);
 }
